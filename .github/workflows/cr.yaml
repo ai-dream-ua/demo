@@ -21,4 +21,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # required for commenting in PR
           crs-api-token: ${{ secrets.CRS_API_TOKEN }} # contact CRS team to get the token
-          exclude: "**/*.md, package*.json, .*rc" # exclude files from review process
+          exclude: "**/*.md, **/package*.json, **/*.*rc" # exclude files from review process
