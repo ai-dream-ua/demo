@@ -3,6 +3,8 @@ async function fetchAListOfDogs() {
   .then(res => res.json())
 
   console.log(listOfDogs);
+
+  return listOfDogs;
 }
 
 async function main() {
